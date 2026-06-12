@@ -5,7 +5,7 @@ def test_add():
   assert add(7, 2, 2) == 11
   assert add(5, 4, 3) == 12
   assert add(10, 10, 10) == 30
-  assert add("a", 1, 3.6) == 4.6
+  assert add("a", 1, 3.6) == -1
   assert add("a", 1, 2) == -1
   assert add(1, None, "5") == -1
   assert add(-1, 5, 5) == -2
